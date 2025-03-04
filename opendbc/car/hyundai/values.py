@@ -325,7 +325,7 @@ class CAR(Platforms):
       HyundaiCarDocs("Hyundai Santa Fe (without HDA II) 2024-25", "Highway Driving Assist", car_parts=CarParts.common([CarHarness.hyundai_p])),
     ],
     CarSpecs(mass=2258, wheelbase=2.95, steerRatio=14.14),
-    flags=HyundaiFlags.HyundaiFlags.CANFD_ANGLE_STEERING,
+    flags=HyundaiFlags.CANFD_ANGLE_STEERING,
   )
   HYUNDAI_SANTA_FE_HEV_5TH_GEN = HyundaiCanFDPlatformConfig(
     [
