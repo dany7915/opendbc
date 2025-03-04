@@ -325,14 +325,14 @@ class CAR(Platforms):
       HyundaiCarDocs("Hyundai Santa Fe (without HDA II) 2024-25", "Highway Driving Assist", car_parts=CarParts.common([CarHarness.hyundai_p])),
     ],
     CarSpecs(mass=2258, wheelbase=2.95, steerRatio=14.14),
-    flags=HyundaiFlags.ANGLE_CONTROL,
+    flags=HyundaiFlags.HyundaiFlags.CANFD_ANGLE_STEERING,
   )
   HYUNDAI_SANTA_FE_HEV_5TH_GEN = HyundaiCanFDPlatformConfig(
     [
       HyundaiCarDocs("Hyundai Santa Fe Hybrid (with HDA II) 2024-25", "Highway Driving Assist II", car_parts=CarParts.common([CarHarness.hyundai_p])),
     ],
     CarSpecs(mass=2258, wheelbase=2.95, steerRatio=14.14),
-    flags=HyundaiFlags.HYBRID | HyundaiFlags.ANGLE_CONTROL | HyundaiFlags.CAMERA_SCC,
+    flags=HyundaiFlags.HYBRID | HyundaiFlags.CANFD_ANGLE_STEERING | HyundaiFlags.CAMERA_SCC,
   )
   HYUNDAI_SONATA = HyundaiPlatformConfig(
     [HyundaiCarDocs("Hyundai Sonata 2020-23", "All", video_link="https://www.youtube.com/watch?v=ix63r9kE3Fw",
