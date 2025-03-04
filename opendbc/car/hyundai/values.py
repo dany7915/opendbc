@@ -331,7 +331,7 @@ class CAR(Platforms):
     [
       HyundaiCarDocs("Hyundai Santa Fe Hybrid (with HDA II) 2024-25", "Highway Driving Assist II", car_parts=CarParts.common([CarHarness.hyundai_p])),
     ],
-    CarSpecs(mass=2258, wheelbase=2.95, steerRatio=14.14),
+    CarSpecs(mass=2258, wheelbase=2.95, steerRatio=15.2),
     flags=HyundaiFlags.HYBRID | HyundaiFlags.CANFD_ANGLE_STEERING | HyundaiFlags.CAMERA_SCC,
   )
   HYUNDAI_SONATA = HyundaiPlatformConfig(
